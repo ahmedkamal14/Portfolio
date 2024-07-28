@@ -1,5 +1,3 @@
-import { Link } from "react-router-dom";
-
 const Portfolio = () => {
   return (
     <div
@@ -14,13 +12,17 @@ const Portfolio = () => {
       <div className="content grid grid-cols-1 xl:grid-cols-2 mt-12 sm:mt-28 gap-8 sm:gap-12 pb-12">
         <div className="skill bg-black88 p-6 sm:p-8 rounded-md">
           <div className="skill-img text-5xl mb-3 w-full">
-            <Link to={"https://ahmedkamal14.github.io/E-Commerce-Website-2/"}>
+            <a
+              href="https://ahmedkamal14.github.io/E-Commerce-Website-2/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <img
                 src="./des1.png"
                 alt="Design 1"
                 className="w-full object-cover h-64 rounded-lg hover:scale-105 hover:rotate-2 transition-all duration-300"
               />
-            </Link>
+            </a>
           </div>
           <h1 className="text-green text-2xl sm:text-3xl mb-2">Shpoify</h1>
           <p className="mt-5 text-white/80 text-sm sm:text-base">
@@ -48,13 +50,17 @@ const Portfolio = () => {
         </div>
         <div className="skill bg-black88 p-6 sm:p-8 rounded-md">
           <div className="skill-img text-5xl mb-3 w-full">
-            <Link to={"https://ahmedkamal14.github.io/E-Commerce-Website/"}>
+            <a
+              href="https://ahmedkamal14.github.io/E-Commerce-Website/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <img
                 src="./des2.png"
                 alt="Design 2"
                 className="w-full object-cover h-64 rounded-lg hover:scale-105 hover:-rotate-2 transition-all duration-300"
               />
-            </Link>
+            </a>
           </div>
           <h1 className="text-green text-2xl sm:text-3xl mb-2">Coral</h1>
           <p className="mt-5 text-white/80 text-sm sm:text-base">
@@ -82,17 +88,17 @@ const Portfolio = () => {
         </div>
         <div className="skill bg-black88 p-6 sm:p-8 rounded-md">
           <div className="skill-img text-5xl mb-3 w-full">
-            <Link
-              to={
-                "https://ahmedkamal14.github.io/Bondi_Website_Template_HTML_CSS/"
-              }
+            <a
+              href="https://ahmedkamal14.github.io/Bondi_Website_Template_HTML_CSS/"
+              target="_blank"
+              rel="noopener noreferrer"
             >
               <img
                 src="./des3.png"
                 alt="Design 3"
                 className="w-full object-cover h-64 rounded-lg hover:scale-105 hover:-rotate-2 transition-all duration-300"
               />
-            </Link>
+            </a>
           </div>
           <h1 className="text-green text-2xl sm:text-3xl mb-2">
             Bondi Design Template
@@ -121,13 +127,17 @@ const Portfolio = () => {
         </div>
         <div className="skill bg-black88 p-6 sm:p-8 rounded-md">
           <div className="skill-img text-5xl mb-3 w-full">
-            <Link to={"https://ahmedkamal14.github.io/Typing-Speed-Game/"}>
+            <a
+              href="https://ahmedkamal14.github.io/Typing-Speed-Game/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <img
                 src="./des4.png"
                 alt="Design 4"
                 className="w-full object-cover h-64 rounded-lg hover:scale-105 hover:rotate-2 transition-all duration-300"
               />
-            </Link>
+            </a>
           </div>
           <h1 className="text-green text-2xl sm:text-3xl mb-2">
             Typing Speed Game
